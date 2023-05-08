@@ -13,3 +13,10 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+# ativando mkdocstring
+plugins:
+- mkdocstrings:
+    handlers:
+      python:
+        paths: [notas_musicais]
